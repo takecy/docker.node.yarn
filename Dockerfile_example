@@ -1,0 +1,13 @@
+FROM takecy/node-yarn:6.9.3-onbuild
+
+ENV PM2_VERSION 2.2.3
+ENV GULP_VERSION 3.9.1
+
+WORKDIR /usr/src/app
+
+RUN yan global add pm2@${PM2_VERSION} gulp@${GULP_VERSION}\
+ && gulp
+
+ EXPOSE 3000
+
+CMD ["pm2-docker", "server.js"]
