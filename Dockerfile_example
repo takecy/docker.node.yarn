@@ -5,7 +5,7 @@ ENV GULP_VERSION 3.9.1
 
 WORKDIR /usr/src/app
 
-RUN yan global add pm2@${PM2_VERSION} gulp@${GULP_VERSION}\
+RUN yarn global add pm2@${PM2_VERSION} gulp@${GULP_VERSION}\
  && gulp
 
  EXPOSE 3000
