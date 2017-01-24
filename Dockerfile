@@ -1,6 +1,6 @@
 FROM node:6.9.3
 
-ENV YANN_VERSION 0.18.1
+ENV YANN_VERSION 0.19.1
 
 RUN mkdir -p /usr/src/app\
  && curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version ${YANN_VERSION}\
