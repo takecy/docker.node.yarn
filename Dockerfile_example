@@ -1,4 +1,4 @@
-FROM takecy/node-yarn:6.9.3-onbuild
+FROM takecy/node-yarn:6.9.4-onbuild
 
 ENV PM2_VERSION 2.2.3
 ENV GULP_VERSION 3.9.1

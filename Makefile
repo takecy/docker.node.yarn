@@ -1,7 +1,7 @@
 .PHONY: build
 
 IMAGE_NAME := node-yarn
-IMAGE_TAG := 6.9.3-onbuild
+IMAGE_TAG := 6.9.4-onbuild
 
 build:
 	docker build --no-cache -t takecy/${IMAGE_NAME}:${IMAGE_TAG} .

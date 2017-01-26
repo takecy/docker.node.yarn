@@ -1,4 +1,6 @@
-FROM node:6.9.3
+FROM node:6.9.4
+
+LABEL maintainer takecy
 
 ENV YANN_VERSION 0.19.1
 
