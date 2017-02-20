@@ -2,7 +2,7 @@ FROM node:6.9.5
 
 LABEL maintainer takecy
 
-ENV YANN_VERSION 0.20.0
+ENV YANN_VERSION 0.21.1
 
 RUN mkdir -p /usr/src/app\
  && curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version ${YANN_VERSION}\
