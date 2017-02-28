@@ -10,12 +10,12 @@ nodejs docker image with yarn
 
 ## Usage
 ```shell
-$ docker pull takecy/node-yarn:6.9.5-onbuild
+$ docker pull takecy/node-yarn:6.10.0-onbuild
 ```
 
 and specify `FROM` in Dockerfile.
 ```dockerfile
-FROM takecy/node-yarn:6.9.5-onbuild
+FROM takecy/node-yarn:6.10.0-onbuild
 
 ////
 ```
