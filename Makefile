@@ -1,7 +1,7 @@
 .PHONY: build_6 build_7 push_6 push_7 push clean
 
 IMAGE_NAME := node-yarn
-IMAGE_TAG_6 := 6.10.1-onbuild
+IMAGE_TAG_6 := 6.10.2-onbuild
 IMAGE_TAG_7 := 7.8.0-onbuild
 
 build_6:
