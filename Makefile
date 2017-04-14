@@ -2,7 +2,7 @@
 
 IMAGE_NAME := node-yarn
 IMAGE_TAG_6 := 6.10.2-onbuild
-IMAGE_TAG_7 := 7.8.0-onbuild
+IMAGE_TAG_7 := 7.9.0-onbuild
 
 build_6:
 	docker build --no-cache -f Dockerfile_6 -t takecy/${IMAGE_NAME}:${IMAGE_TAG_6} .
